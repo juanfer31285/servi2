@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Envíos Nacionales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+      color: #222; /* Texto más oscuro */
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo img {
+      width: 150px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    #home {
+      background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    #home h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    #home p {
+      font-size: 1.3em;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .cta-btn {
+      background-color: #007BFF;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1em;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    #servicios {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    #servicios h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .service {
+      width: 60%;
+      margin: 0 auto;
+      background: #e6e6e6;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .service img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .service h3 {
+      margin-top: 15px;
+      font-size: 1.8em;
+      color: #111;
+    }
+
+    .service p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    #como-funciona {
+      padding: 50px 20px;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+
+    #como-funciona h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .step {
+      display: inline-block;
+      width: 40%;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .step img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .step p {
+      font-size: 1.2em;
+      color: #222;
+    }
+
+    #contacto {
+      padding: 50px 20px;
+      background-color: #fff;
+    }
+
+    #contacto h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    form button {
+      background-color: #007BFF;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+
+    #mapa {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    footer ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    footer ul li a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://th.bing.com/th/id/OIP.uyVZLVH_FIegBrcbBKDNPQHaHa?w=626&h=626&rs=1&pid=ImgDetMain/150" alt="VelozPaq">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#como-funciona">Cómo Funciona</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <h1>Envía tus productos a cualquier parte del país</h1>
+      <p>Ofrecemos servicios rápidos y seguros para todos tus envíos nacionales.</p>
+      <a href="#contacto" class="cta-btn">Solicita tu envío ahora</a>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios de Envío</h2>
+    <div class="service">
+      <img src="https://d1ih8jugeo2m5m.cloudfront.net/2024/06/Empresas_De_Envios_En_Colombia_Mensajeria-1536x864.jpg" alt="Envío Express">
+      <h3>Envío Express</h3>
+      <p>Recibe tu paquete en menos de 24 horas.</p>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <h2>¿Cómo Funciona?</h2>
+    <div class="step">
+      <img src="https://th.bing.com/th/id/OIP.CW6qOvUPJcWrI3vInnUk3gHaE8?rs=1" alt="Paso 1">
+      <p>Paso 1: Empaque tu paquete correctamente.</p>
+    </div>
+    <div class="step">
+      <img src="https://enviosmarket.com/wp-content/uploads/2022/08/envios-de-estados-unidos-a-colombia.jpg" alt="Paso 3">
+      <p>Paso 2: Nosotros nos encargamos del resto.</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="enviarFormulario.php" method="post">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+    <div id="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=...TuMapaEmbed..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Envíos Nacionales. Todos los derechos reservados.</p>
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
